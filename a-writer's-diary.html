@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>a writer's diary - Book Detail</title>
+  <link rel="stylesheet" href="intermezzo.css">
+</head>
+<body>
+
+  <header>
+    <h1>bookarchive</h1>
+    <nav>
+      <ul>
+        <li><a href="x.html">home</a></li>
+        <li><a href="profile.html">profile</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="book-detail">
+    <div class="book-container">
+      <div class="book-image">
+        <img src="images/diary.jpg" alt="Book Cover">
+      </div>
+      <div class="book-info">
+        <h2>a writer's diary</h2>
+        <p class="author">author: virginia woolf</p>
+        <p class="published">published: 1953</p>
+        <p class="description">
+            An invaluable guide to the art and mind of Virginia Woolf, drawn from the personal record she kept over a period of twenty-seven years. Included are entries that refer to her own writing, and those that are relevant to the raw material of her work, and, finally, comments on the books she was reading. The first entry included here is dated 1918 and the last, three weeks before her death in 1941. Between these points of time unfolds the private world—the anguish, the triumph, the creative vision—of one of the great writers of the twentieth century.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="user-reviews">
+    <h3>user reviews</h3>
+    <div class="reviews-container">
+      <div class="review">
+        <p class="review-author"><strong>user656262:</strong></p>
+        <p class="review-text">It is a classical philosophical tragedy: unrecognized genius vs bourgeois society, but the main character is unsympathetical. Although his assumptions about society is hard to deny, his attitude toward other people is pretentious and extremely rude. He values his own principals more than anything else and even in love and charity he proclaims an individualism and Nietzschean ideas of power. In general, the book is a nice description of America's society at the beginning of the twentieth century and has deep phycological research of human nature.</p>
+      </div>
+      <div class="review">
+        <p class="review-author"><strong>uaer908359:</strong></p>
+        <p class="review-text">A very good summer, this, for all my shying and jibbing, my tremors this morning. Beautifully quiet, airy, powerful. I believe I want this more humane existence for my next—to spread carelessly among one's friends—to feel the width and amusement of human life: not to strain to make a pattern just yet: to be made supple, and to let the juice of usual things, talk, character, seep through me, quietly, involuntarily, before I say Stop and take out my pen.'</p>
+      </div>
+    </div>
+
+    <div class="review-form">
+      <h4>add a review</h4>
+      <form id="review-form">
+        <label for="username">username:</label>
+        <input type="text" id="username" name="username" required>
+        
+        <label for="review-text">your review:</label>
+        <textarea id="review-text" name="review-text" rows="4" required></textarea>
+        
+        <button type="submit" class="btn-primary">submit review</button>
+      </form>
+    </div>
+  </section>
+
+</body>
+</html>

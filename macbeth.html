@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>macbeth - Book Detail</title>
+  <link rel="stylesheet" href="intermezzo.css">
+</head>
+<body>
+
+  <header>
+    <h1>bookarchive</h1>
+    <nav>
+      <ul>
+        <li><a href="x.html">home</a></li>
+        <li><a href="profile.html">profile</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="book-detail">
+    <div class="book-container">
+      <div class="book-image">
+        <img src="images/macc.jpg" alt="Book Cover">
+      </div>
+      <div class="book-info">
+        <h2>macbeth</h2>
+        <p class="author">author: william shakespeare</p>
+        <p class="published">published: 1847</p>
+        <p class="description">
+            What he hears will change everything. Egged on by his wife, he decides to kill in order to gain the Scottish crown. How many people will have to die in Macbeth's pursuit of power? With armies, ghosts and magic against him, will Macbeth survive in this tale of greed and betrayal? Getting the crown is one thing - keeping it is quite another.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="user-reviews">
+    <h3>user reviews</h3>
+    <div class="reviews-container">
+      <div class="review">
+        <p class="review-author"><strong>user93529:</strong></p>
+        <p class="review-text">Don't you kind of hate how we've entered the decadent phase of Goodreads wherein perhaps fifty percent (or more) of the reviews written by non-teenagers and non-romancers are now naked and unabashed in their variously effective attempts at being arch, wry, meta, parodic, confessional, and/or snarky?</p>
+      </div>
+
+    <div class="review-form">
+      <h4>add a review</h4>
+      <form id="review-form">
+        <label for="username">username:</label>
+        <input type="text" id="username" name="username" required>
+        
+        <label for="review-text">your review:</label>
+        <textarea id="review-text" name="review-text" rows="4" required></textarea>
+        
+        <button type="submit" class="btn-primary">submit review</button>
+      </form>
+    </div>
+  </section>
+
+</body>
+</html>

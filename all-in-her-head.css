@@ -1,0 +1,163 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+  }
+  
+  header {
+    background-color: #8ACE00;
+    color: black;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  header nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  header nav ul li a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  #book-detail {
+    padding: 3rem 2rem;
+    background-color: #f9f9f9;
+  }
+  
+  .book-container {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .book-image img {
+    width: 250px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .book-info {
+    max-width: 600px;
+    text-align: left;
+  }
+  
+  .book-info h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .book-info .author,
+  .book-info .published {
+    font-size: 1.1rem;
+    color: #000000;
+  }
+  
+  .book-info .description {
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    color: #414141;
+  }
+  
+  .cta-buttons {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .btn-primary {
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    background-color: #8ACE00;
+    color: black;
+    text-decoration: none;
+    font-size: 1rem;
+    border: 1px solid #8ACE00;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #ffffff;
+  }
+  
+  #user-reviews {
+    padding: 3rem 2rem;
+    background-color: #8ACE00;
+  }
+  
+  #user-reviews h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+  }
+  
+  .reviews-container {
+    margin-bottom: 2rem;
+  }
+  
+  .review {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    margin-bottom: 1rem;
+  }
+  
+  .review-author {
+    font-weight: bold;
+  }
+  
+  .review-text {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  .review-form {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  .review-form h4 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .review-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .review-form input,
+  .review-form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .review-form button {
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    background-color: #8ACE00;
+    color: black;
+    text-decoration: none;
+    border: 1px solid #8ACE00;
+    cursor: pointer;
+  }
+  
+  .review-form button:hover {
+    background-color: #ffffff;
+  }
+  

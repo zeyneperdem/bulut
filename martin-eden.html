@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>martin eden - Book Detail</title>
+  <link rel="stylesheet" href="intermezzo.css">
+</head>
+<body>
+
+  <header>
+    <h1>bookarchive</h1>
+    <nav>
+      <ul>
+        <li><a href="x.html">home</a></li>
+        <li><a href="profile.html">profile</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="book-detail">
+    <div class="book-container">
+      <div class="book-image">
+        <img src="images/m.jpg" alt="Book Cover">
+      </div>
+      <div class="book-info">
+        <h2>martin eden</h2>
+        <p class="author">author: jack london</p>
+        <p class="published">published: 1909</p>
+        <p class="description">
+            The semiautobiographical Martin Eden is the most vital and original character Jack London ever created. Set in San Francisco, this is the story of Martin Eden, an impoverished seaman who pursues, obsessively and aggressively, dreams of education and literary fame. London, dissatisfied with the rewards of his own success, intended Martin Eden as an attack on individualism and a criticism of ambition; however, much of its status as a classic has been conferred by admirers of its ambitious protagonist. Andrew Sinclair's wide-ranging introduction discusses the conflict between London's support of socialism and his powerful self-will. Sinclair also explores the parallels and divergences between the life of Martin Eden and that of his creator, focusing on London's mental depressions and how they affected his depiction of Eden.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="user-reviews">
+    <h3>user reviews</h3>
+    <div class="reviews-container">
+      <div class="review">
+        <p class="review-author"><strong>user656262:</strong></p>
+        <p class="review-text">It is a classical philosophical tragedy: unrecognized genius vs bourgeois society, but the main character is unsympathetical. Although his assumptions about society is hard to deny, his attitude toward other people is pretentious and extremely rude. He values his own principals more than anything else and even in love and charity he proclaims an individualism and Nietzschean ideas of power. In general, the book is a nice description of America's society at the beginning of the twentieth century and has deep phycological research of human nature.</p>
+      </div>
+      <div class="review">
+        <p class="review-author"><strong>uaer9402082:</strong></p>
+        <p class="review-text"> No wolves here 🐺, just a tragic story of a former sailor who seeks to educate himself and realize his dream of becoming an author. "Martin Eden" is Jack London's masterpiece. It is among the best naturalist novels ever published, on par with the best of Emile Zola. It is a powerful social commentary on the struggles of the working class and the perils of individualism. If you think Jack London is just for kids, think again. This book is a classic, and for very good reason.</p>
+      </div>
+    </div>
+
+    <div class="review-form">
+      <h4>add a review</h4>
+      <form id="review-form">
+        <label for="username">username:</label>
+        <input type="text" id="username" name="username" required>
+        
+        <label for="review-text">your review:</label>
+        <textarea id="review-text" name="review-text" rows="4" required></textarea>
+        
+        <button type="submit" class="btn-primary">submit review</button>
+      </form>
+    </div>
+  </section>
+
+</body>
+</html>

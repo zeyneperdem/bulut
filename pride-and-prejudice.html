@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>pride and prejudice - Book Detail</title>
+  <link rel="stylesheet" href="intermezzo.css">
+</head>
+<body>
+
+  <header>
+    <h1>bookarchive</h1>
+    <nav>
+      <ul>
+        <li><a href="x.html">home</a></li>
+        <li><a href="profile.html">profile</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="book-detail">
+    <div class="book-container">
+      <div class="book-image">
+        <img src="images/pp.jpg" alt="Book Cover">
+      </div>
+      <div class="book-info">
+        <h2>pride and prejudice</h2>
+        <p class="author">author: jane austen</p>
+        <p class="published">published: 1813</p>
+        <p class="description">
+          Pride and Prejudice has charmed generations of readers for more than two centuries. Jane Austen's much-adapted novel is famed for its witty, spirited heroine, sensational romances, and deft remarks on the triumphs and pitfalls of social convention. Author Jane Austen (1775-1817) was an English novelist whose works of social realism achieved unprecedented critical and popular success, though Austen herself remained an anonymous writer throughout her life..
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="user-reviews">
+    <h3>user reviews</h3>
+    <div class="reviews-container">
+      <div class="review">
+        <p class="review-author"><strong>user939262:</strong></p>
+        <p class="review-text">The themes of marriage, wealth, class, education, male inheritance, and social expectations are no surprise for books written in this period. However, what was so refreshing and captivating about this book is the balance of good versus evil, the steadfast principles held by some in contrast to the immoral behaviours of others. We are treated with a range of fabulous characters and the standout from the book – well it’s the humour!!! with scenes like Mr Collins' absurd, awkward, and fumbling proposal to Elizabeth. However, one of my favourite book lines, was Mr Bennett’s riposte to his hypochondriac wife, “I have the highest respect for your nerves, they are my old friends.” A delightful, charming, easy to read classic with some explosive scenes and despicable characters that encapsulated so many themes. However, it is the two main characters that personfiied the predominant theme of the book - Pride and Prejudice.</p>
+      </div>
+
+    <div class="review-form">
+      <h4>add a review</h4>
+      <form id="review-form">
+        <label for="username">username:</label>
+        <input type="text" id="username" name="username" required>
+        
+        <label for="review-text">your review:</label>
+        <textarea id="review-text" name="review-text" rows="4" required></textarea>
+        
+        <button type="submit" class="btn-primary">submit review</button>
+      </form>
+    </div>
+  </section>
+
+</body>
+</html>

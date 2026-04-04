@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>frankenstein - Book Detail</title>
+  <link rel="stylesheet" href="intermezzo.css">
+</head>
+<body>
+
+  <header>
+    <h1>bookarchive</h1>
+    <nav>
+      <ul>
+        <li><a href="bookarchive.html">home</a></li>
+        <li><a href="profile.html">profile</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="book-detail">
+    <div class="book-container">
+      <div class="book-image">
+        <img src="images/f.webp" alt="Book Cover">
+      </div>
+      <div class="book-info">
+        <h2>intermezzo</h2>
+        <p class="author">author: mary wollstonecraft shelley</p>
+        <p class="published">published: 1818</p>
+        <p class="description">
+            Mary Shelley's seminal novel of the scientist whose creation becomes a monster. This edition is the original 1818 text, which preserves the hard-hitting and politically charged aspects of Shelley's original writing, as well as her unflinching wit and strong female voice. This edition also includes a new introduction and suggestions for further reading by author and Shelley expert Charlotte Gordon, literary excerpts and reviews selected by Gordon and a chronology and essay by preeminent Shelley scholar Charles E. Robinson.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="user-reviews">
+    <h3>user reviews</h3>
+    <div class="reviews-container">
+      <div class="review">
+        <p class="review-author"><strong>user825283549:</strong></p>
+        <p class="review-text">80% of this book is just Victor Frankenstein falling into months-long fevers at the slightest inconvenience and also being a colossal piece of shit. The Creature, on the other hand, is the poster-monster for anyone who’s ever felt Othered and I simply LOVE HIM</p>
+      </div>
+      <div class="review">
+        <p class="review-author"><strong>user9528525:</strong></p>
+        <p class="review-text">It's been fifty years since I had read Frankenstein, and, now—after a recent second reading—I am pleased to know that the pleasures of that first reading have been revived. Once again--just as it was in my teens--I was thrilled by the first glimpse of the immense figure of the monster, driving his sled across the arctic ice, and marveled at the artful use of narrative frames within frame, each subsequent frame leading us closer to the heart of the novel, until we hear the alienated yet articulate voice of the creature himself. In addition, I admired the equally artful way the novel moves backward through the same frames until we again reach the arctic landscape which is the scene of the novel's beginning...and its end.</p>
+      </div>
+    </div>
+
+    <div class="review-form">
+      <h4>add a review</h4>
+      <form id="review-form">
+        <label for="username">username:</label>
+        <input type="text" id="username" name="username" required>
+        
+        <label for="review-text">your review:</label>
+        <textarea id="review-text" name="review-text" rows="4" required></textarea>
+        
+        <button type="submit" class="btn-primary">submit review</button>
+      </form>
+    </div>
+  </section>
+
+</body>
+</html>
