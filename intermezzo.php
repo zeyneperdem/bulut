@@ -1,9 +1,9 @@
 <?php
 // Veritabanı bağlantısı için ayarlar
-$host = 'localhost'; // Veritabanı sunucusu
+$host = 'bookarchive.cvg444ckev8y.eu-north-1.rds.amazonaws.com'; // Veritabanı sunucusu
 $dbname = 'bookarchive'; // Veritabanı adı
-$username = 'root'; // MySQL kullanıcı adı
-$password = ''; // MySQL şifresi (varsa)
+$username = 'admin'; // MySQL kullanıcı adı
+$password = 'eTtycte16092'; // MySQL şifresi (varsa)
 
 try {
     // PDO ile veritabanına bağlanma
